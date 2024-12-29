@@ -1,0 +1,37 @@
+.styled-form {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.input {
+  display: flex;
+  padding: 10px;
+  height: 14px;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  background: white;
+  font-family: 'Lexend Deca', sans-serif;
+
+  @media (max-width: 390px) {
+    width: 200px;
+  }
+  @media (min-width: 391px) and (max-width: 768px) {
+    width: 342px;
+  }
+  @media (min-width: 769px) {
+    width: 542px;
+  }
+}
+
+.button {
+  width: 80px;
+  height: 34px;
+  border-radius: 0 10px 10px 0;
+  background-color: #2F80ED;
+  box-shadow: 2px 0 4px 0 #2F80ED;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  color: #fff;
+}
