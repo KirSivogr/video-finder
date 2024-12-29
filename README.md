@@ -30,4 +30,7 @@
    ```
    Откройте браузер и перейдите по адресу http://localhost:3001/.
 
+Также вы можете открыть [deploy](https://video-finder-eight.vercel.app/) проекта
+
+
 
