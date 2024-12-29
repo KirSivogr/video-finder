@@ -1,0 +1,31 @@
+.pagination-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.page-button {
+  font-family: 'Roboto', serif;
+  padding: 8px 12px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  color: #000000;
+  cursor: pointer;
+  outline: none;
+
+  &.active {
+    border: 1px solid #2F80ED;
+  }
+}
+
+.arrow-button {
+  padding: 8px 12px;
+  margin: 0 5px;
+  border-radius: 5px;
+  color: #000000;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: #FFFFFF;
+}
